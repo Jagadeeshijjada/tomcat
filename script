@@ -6,6 +6,6 @@ vim apache-tomcat-9.0.83/conf/tomcat-users.xml
   <role rolename="manager-script"/>
   <user username="tomcat" password="jagadeesh123" roles="manager-gui, manager-script"/>
 
-vim apache-tomcat-9.0.80/webapps/manager/META-INF/context.xml
+vim apache-tomcat-9.0.83/webapps/manager/META-INF/context.xml
   #delete line 21 & 22
  sh apache-tomcat-9.0.83/bin/startup.sh
