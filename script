@@ -9,3 +9,14 @@ vim apache-tomcat-9.0.83/conf/tomcat-users.xml
 vim apache-tomcat-9.0.83/webapps/manager/META-INF/context.xml
   #delete line 21 & 22
  sh apache-tomcat-9.0.83/bin/startup.sh
+
+port change:
+vim /root/apache-tomcat-9.0.80/conf/server.xml (line 69)
+sh /root/apache-tomcat-9.0.80/bin/shutdown.sh
+sh /root/apache-tomcat-9.0.80/bin/startup.sh
+
+passowrd:
+vim apache-tomcat-9.0.80/conf/tomcat-users.xml
+sh /root/apache-tomcat-9.0.80/bin/shutdown.sh
+sh /root/apache-tomcat-9.0.80/bin/startup.sh
+
